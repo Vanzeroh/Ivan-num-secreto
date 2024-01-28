@@ -3,15 +3,6 @@ let intentos;
 let numerosSorteados = [];
 let numeroMaximo = 10; 
 
-window.addEventListener("deviceorientation", handleOrientation, true);
-
-function handleOrientation(event) {
-    const absolute = event.absolute;
-    const alpha = event.alpha;
-    const beta = event.beta;
-    const gamma = event.gamma;
-}
-
 function asignarTextoElemento(elemento, texto){
     let elmentoHTML = document.querySelector(elemento);
     elmentoHTML.innerHTML = texto;  

@@ -111,7 +111,7 @@ button {
     font-weight: 400;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     body {
         width: auto;
     }

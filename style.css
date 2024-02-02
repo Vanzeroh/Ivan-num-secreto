@@ -113,30 +113,10 @@ button {
 
 @media screen and (max-width:480px) {
     body {
-        width: auto;
+        width: 10vh;
     }
 
     .container{
-        position: relative;
-        bottom: 11%;
-        background-size: 80% 80%;
+      width: 10vh;
     }
-
-    .container__contenido {
-        position: fixed;
-        bottom: 0;
-    }
-
-    .container__texto h1{
-        font-size: 3em;
-        
-    }
-
-    .persona{
-        position: fixed;
-        bottom: 60%;
-        right: 10%;
-        width: 300px;
-    }
-     
 }
